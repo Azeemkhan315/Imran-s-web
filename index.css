@@ -13,9 +13,12 @@
   
   /* Header and Navbar */
   header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+    position: fixed;
+    background-color: #f4a261;
+    color: rgb(0, 0, 0);
+    padding: 7px 0;
+    width: 100%;
+    
   }
   
   .navbar {
@@ -25,21 +28,17 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-  }
-  
-  .brand-name {
-    font-size: 1.5rem;
-    text-align: left;
-    
-  }
-  
+
+   }
+
   .nav-links {
     list-style: none;
     display: flex;
+   
   }
   
   .nav-links li {
-    margin-left: 15px;
+    margin-left: 30px;
   }
   
   .nav-links a {
@@ -50,28 +49,61 @@
   }
   
   .nav-links a:hover {
-    color: #f4a261;
+    color: #000000;
   }
-  
-  /* Main Section */
   main {
-    padding: 20px;
-    text-align: center;
-    background-color: #696868;
+    background-image: url(assests/imran.jpg);
+    padding: 70px;
+    background-position: center;
+    background-color: #cf8b8b;
     width: 100%;
+    color: white;
     height: 1956px 
-  main h2 {
+
+  }  main h2 {
     margin-bottom: 15px;
     color: white;
+    font-size: 30px;
+    text-align: center;
+
+  }
+  main article{
+    font-size: large;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .home2 button{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #f4a261;
+    border: none;
+    zoom: 110%;
+  }
+  .home2 button:hover{
+    background-color: aqua;
+    cursor: pointer;
+    
+  }
+ 
+  main img {
+    margin-top: 20px;
+    width: 300px;
+    border:solid #222;
+    border-color: #f4a261;
+    align-items: flex-start;
+  }
+  main img:hover{
+    cursor: pointer;
+    zoom: 120%;
   }
   
-  /* Footer */
   footer {
     background: #222;
     color: #ddd;
     text-align: center;
     position: fixed;
-    padding: 30px 0;
+    padding: 20px 0;
     left: 0;
     bottom: 0;
     width: 100%;
